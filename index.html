@@ -132,6 +132,23 @@
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
 
+        .get-directions-btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+        }
+
+        .get-directions-btn:hover {
+            background-color: #3e8e41;
+        }
+
         /* Footer */
         .footer {
             background: #2c3e50;
@@ -262,10 +279,14 @@ Near GnanaVinayakar Temple & Pattaravakkam Railway Station
                 </ul>
             </div>
     
-            <!-- Google Map Embed -->
+            <!-- Google Map Embed with ONLY the specific location -->
             <div class="map-container">
-                <h3>Location </h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.7492214626604!2d80.16263691378008!3d13.115067000000009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526300547bc98b%3A0x2e43d342a466cd8b!2sSri%20Lakshmi%20Narasimha%20Shartha%20Bhavanam!5e0!3m2!1sen!2sin!4v1737906766392!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h3>Our Location</h3>
+                <!-- Updated Google Maps embed with your specific location only -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d971.4361962562085!2d80.16758339080103!3d13.115082656341598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526300547bc98b%3A0x2e43d342a466cd8b!2sSri%20Lakshmi%20Narasimha%20Shartha%20Bhavanam!5e0!3m2!1sen!2sin!4v1715072835201!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <!-- Get Directions Button -->
+                <a href="https://maps.app.goo.gl/DajVmozRr9u9wT9k7" class="get-directions-btn" target="_blank">Get Directions</a>
             </div>
         </div>
     </section>
